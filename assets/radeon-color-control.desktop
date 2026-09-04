@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Radeon Color Control
+GenericName=Display Color & Vibrance
+Comment=Digital Vibrance, Saturation, and Color Temperature Calibration for Linux
+Exec=radeon-color-control
+Icon=radeon-color-control
+Terminal=false
+Categories=Settings;HardwareSettings;Graphics;Utility;
+Keywords=amd;radeon;color;saturation;vibrance;custom;display;contrast;brightness;
+StartupWMClass=radeon-color-control

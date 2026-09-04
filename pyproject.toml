@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "radeon-color-control"
+version = "1.0.0"
+description = "AMD Radeon style Custom Color & Digital Vibrance control for Linux (KDE Wayland)"
+readme = "README.md"
+license = { text = "GPL-3.0-or-later" }
+authors = [{ name = "vfxno" }]
+keywords = ["amd", "radeon", "color", "saturation", "vibrance", "wayland", "kde", "kwin"]
+classifiers = [
+    "Environment :: X11 Applications :: Qt",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Topic :: Desktop Environment :: K Desktop Environment (KDE)",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Utilities"
+]
+dependencies = [
+    "PyQt6>=6.4.0"
+]
+
+[project.scripts]
+radeon-color-control = "src.main:main"
+
+[project.urls]
+Homepage = "https://github.com/vfxno/radeon-color-control"
+Repository = "https://github.com/vfxno/radeon-color-control"
